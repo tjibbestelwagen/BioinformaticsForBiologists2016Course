@@ -1,0 +1,5 @@
+Command	Use
+git status	Make git check for new files
+git add --all:/	Stage every modified file in this folder including subfolders
+git command -m "text"	Commit (explain) changes since made
+git clone http://	Clone files from a github page, you will find the url needed on its github website
