@@ -9,3 +9,7 @@ git push	Push the file to the Cloud
 
 git config --global user.name "Your Name"	Set your name
 git config --global user.email you@example.com	Set your e-mail
+
+
+
+Its much better like this, right?
