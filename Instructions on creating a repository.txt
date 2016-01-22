@@ -1,0 +1,31 @@
+Intrusctions on creating a repository:
+
+Create new directory on GitHub (with a description, private, initialize with README, add giftignore python, add a license)
+Now I want to bring it to my local computer to be able to work in the terminal
+
+In the terminal:
+git clone https://github.com/LunavdL/TestGitHub.git
+
+Now I cloned it (the directory can be found in the home folder), but I am not in the folder yet. So set working directory:
+cd TestGibHub
+
+To update the repository:
+git pull
+
+Now you can add documents, pictures etc.
+
+For example: 
+git echo “hello” > commands.txt
+git echo “another sentence” >> commands.txt
+
+Now you have created a file and you want to push this to the GItHub website:
+git add –all :/ --> this adds everything to staged files
+git status --> with this command you can see the status (changes are in green)
+git commit -m “text about what I did” → telling this I what I did
+git push → this pushes it to the website
+(then you need to insert username and password)
+
+If you want to switch to another repository, set new directory (cloning only needs to be done once) and then git pull to update.
+
+You can also copy and paste documents in the graphical interfase on your local computer.
+git pull will not show any changes, because you changed it on the local computer and git pull shows changes on the website.
